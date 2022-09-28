@@ -34,3 +34,8 @@ if (num % 3 == 0 && num % 2 == 0) {
   console.log('Number is not divisible by 2 or 3');
 }
 
+//  you can drive or not use ternary operator
+
+let dage = 16;
+let answer = dage >= 18 ? 'yes you can drive' : ' you can not drive';
+console.log(answer);
