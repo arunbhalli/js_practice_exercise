@@ -7,8 +7,8 @@ console.log(arr);*/
 
 // quetion 2
 
-let arr = [1, 20, 3, 4, 50, 6, 70];
-let size;
+// let arr = [1, 2,3,4,5];
+// let size;
 /*do {
   size = prompt('Enter array Element ');
   size = Number.parseInt(size);
@@ -25,7 +25,16 @@ console.log(n)*/
 
 // Quetion4 new array of square
 
-let n = arr.map((a) => {
-  return a * a;
+// let n = arr.map((a) => {
+//   return a * a;
+// });
+// console.log(n);
+
+// Quetion 5 factorial
+
+let arr = [1, 2, 3, 4, 5];
+let size;
+let n = arr.reduce((a1, a2) => {
+  return a1 * a2;
 });
 console.log(n);
